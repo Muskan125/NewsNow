@@ -27,7 +27,7 @@ git clone https://github.com/Muskan125/NewsNow.git
 
 ### 📦 Install Dependencies
 ```bash
-cd newsnow
+cd NewsNow
 flutter pub get
 ```
 ---
