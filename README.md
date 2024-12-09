@@ -1,6 +1,10 @@
 # 📰 **News Now**
 
-A modern Flutter application delivering the **latest news updates** from various sources, complete with a **powerful search feature** and an **intuitive user experience**. Stay informed with real-time articles, explore news from multiple categories and publishers, and enjoy a seamless, user-friendly interface designed for quick access to the stories that matter most.
+A modern Flutter application delivering the **latest news updates** from various sources, complete with a powerful search feature and an **intuitive user experience**. Stay informed with real-time articles, explore news from multiple categories and publishers, and enjoy a seamless, user-friendly interface designed for quick access to the stories that matter most.
+
+This application uses **Provider** for efficient **state management** and includes a **bookmark feature** implemented with **Shared Preferences** to save articles for future reference.
+
+
 
 ---
 
