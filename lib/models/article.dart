@@ -33,4 +33,29 @@ class Article {
       content: json['content'] as String?,
     );
   }
+
+   Map<String, dynamic> toJson() {
+    return {
+      'source': source.toJson(),
+      'author': author,
+      'title': title,
+      'description': description,
+      'url': url,
+      'urlToImage': urlToImage,
+      'publishedAt': publishedAt.toIso8601String(),
+      'content': content,
+    };
+  }
+
+   @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      other is Article &&
+          runtimeType == other.runtimeType &&
+          title == other.title &&
+          url == other.url;
+
+  @override
+  int get hashCode => title.hashCode ^ url.hashCode;
 }
+

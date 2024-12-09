@@ -49,7 +49,8 @@ class _BottomNavBarState extends State<BottomNavBar> {
         items: [
           _buildNavItem(Icons.home, 'Home', 0),
           _buildNavItem(Icons.article, 'Explore', 1),
-          _buildNavItem(Icons.account_circle, 'About', 2),
+          _buildNavItem(Icons.bookmark, 'Bookmark', 2),
+          _buildNavItem(Icons.account_circle, 'About', 3),
         ],
       ),
     );

@@ -13,7 +13,6 @@ class NewsViewModel extends ChangeNotifier {
   bool get isLoading => _isLoading;
   String? get error => _error;
 
-  // Helper method to filter out invalid articles
   List<Article> notNullFilter(List<Article> articles) {
     return articles.where((article) =>
       article.title != null &&

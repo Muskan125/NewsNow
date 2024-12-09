@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:newsnow/views/bookmark.dart';
 import '../widgets/bottom_nav.dart';
 import 'home_screen.dart'; 
 import 'about.dart'; 
@@ -17,6 +18,7 @@ class _MainScreenState extends State<MainScreen> {
   final List<Widget> _screens = [
     const HomeScreen(), 
     const Category(), 
+    const Bookmark(),
     const About(), 
   ];
 
